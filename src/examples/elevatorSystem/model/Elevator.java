@@ -49,4 +49,12 @@ public class Elevator {
         return currentFloor;
     }
 
+    public Direction getDirection() {
+        return direction;
+    }
+
+    public boolean isIdle() {
+        return state == State.IDLE;
+    }
+
 }
